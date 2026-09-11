@@ -1,17 +1,18 @@
 # Mayhem Shield Framework (Public)
 
-## Enterprise AI Implementation Assurance
+## Enterprise AI implementation assurance
 
-Mayhem Shield helps organizations evaluate whether AI controls are effective in real deployments, not only documented in policy or vendor claims.
+[Mayhem Shield](https://mayhemshield.com) provides buyer-side assurance for enterprise AI deployments. The firm assesses whether security controls actually hold for a specific deployment, covering data paths, identities, integrations, workflows, and go-live conditions, and documents the results for approvers as findings, evidence requests, and conditions for each approval gate. It does not resell or implement the products it reviews.
 
 This repository is the public version of the Mayhem Shield framework. It provides the method, classification model, and public-safe templates used to scope and assess enterprise AI implementations.
 
 ## What Mayhem Shield does
-- Evaluates implementation-level risk in AI-enabled systems.
+- Evaluates implementation-level risk in AI-enabled systems, as deployed in the buyer's environment.
 - Maps expected controls to concrete architecture and workflow patterns.
 - Uses evidence-based review phases and approval gates.
-- Verifies what vendors claim about AI products before contracts are signed.
-- Highlights control gaps and readiness concerns before production or expansion.
+- Highlights control gaps and readiness concerns before pilot expansion or production.
+
+Engagements: [mayhemshield.com/services](https://mayhemshield.com/services). Contact: info@mayhemshield.com. LinkedIn: [Mayhem Shield](https://www.linkedin.com/company/mayhem-shield/)
 
 ## What this framework is
 - A structured assurance model for enterprise AI implementations.
