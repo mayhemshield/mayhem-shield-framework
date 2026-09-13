@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: Mayhem Shield Framework
+message: If you use this framework, please cite it using the metadata below.
+type: software
+authors:
+  - family-names: Kadandara
+    given-names: Tich
+    affiliation: Mayhem Shield
+version: 1.0.0
+date-released: "2026-04-25"
+repository-code: https://github.com/mayhemshield/mayhem-shield-framework
+url: https://mayhemshield.com/framework
+license: MIT
+keywords:
+  - AI assurance
+  - AI deployment review
+  - buyer-side assurance
+  - security architecture review
+  - NIST AI RMF
+  - enterprise AI governance
+abstract: >-
+  A public methodology for buyer-side security and control reviews of
+  enterprise AI deployments. Classifies deployments by implementation
+  category and capability overlay, defines evidence rules, severity
+  calibration, and approval gates (proof of concept, pilot, production),
+  and maps review outputs to NIST AI RMF 1.0 functions.
