@@ -60,7 +60,9 @@ Review outputs reference the four AI RMF 1.0 functions. Each finding in a delive
 Reports state the framework version used (AI RMF 1.0) so the mapping can be checked against the published document.
 
 ## Citing this framework
-A `CITATION.cff` file is included. GitHub renders it under "Cite this repository". A DOI will be added once the repository is archived on Zenodo.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22732175.svg)](https://doi.org/10.5281/zenodo.22732175)
+
+A `CITATION.cff` file is included. GitHub renders it under "Cite this repository". The DOI above resolves to the latest archived release on Zenodo; each release also has its own version DOI on the Zenodo record.
 
 ## How to use this in 30 minutes
 1. Skim `00-core-framework/methodology.md` for the review model and phases (about 10 minutes).

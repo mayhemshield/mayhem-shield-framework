@@ -6,8 +6,9 @@ authors:
   - family-names: Kadandara
     given-names: Tich
     affiliation: Mayhem Shield
-version: 1.0.0
-date-released: "2026-04-25"
+version: 1.0.1
+date-released: "2026-09-13"
+doi: 10.5281/zenodo.22732175
 repository-code: https://github.com/mayhemshield/mayhem-shield-framework
 url: https://mayhemshield.com/framework
 license: MIT
