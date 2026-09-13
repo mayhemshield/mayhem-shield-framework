@@ -45,7 +45,22 @@ Overlays are additive modifiers applied on top of the primary category when rele
 - Output Liability / Public-Facing Use
 
 ## Framework alignment
-Mayhem Shield's methodology references established standards including NIST AI RMF, ISO/IEC 42001, EU AI Act, OWASP Top 10 for LLM Applications, NIST CSF 2.0, and SR 11-7. See `00-core-framework/framework-alignment.md` for where each standard appears in the methodology. Alignment refers to methodology reference, not certification.
+Mayhem Shield's methodology references established standards including NIST AI RMF 1.0, ISO/IEC 42001:2023, EU AI Act, OWASP Top 10 for LLM Applications, NIST CSF 2.0, and SR 11-7. See `00-core-framework/framework-alignment.md` for where each standard appears in the methodology. Alignment refers to methodology reference, not certification. Mayhem Shield is not a NIST-recognized assessor.
+
+### Mapping to NIST AI RMF 1.0
+Review outputs reference the four AI RMF 1.0 functions. Each finding in a deliverable is tagged with the function it most directly addresses.
+
+| AI RMF 1.0 function | Where it appears in this framework |
+|---|---|
+| Govern | Review of organizational accountability for the deployment; gate conditions and approver documentation (`00-core-framework/methodology.md`, `00-core-framework/framework-alignment.md`) |
+| Map | Intake classification by implementation category and capability overlays; architecture and data-flow diagrams with control points (`01-implementation-categories/`, `02-capability-overlays/`, `05-templates/`) |
+| Measure | Evidence rules and the findings register; gap categories and templates (`00-core-framework/evidence-model.md`, `00-core-framework/gap-categories.md`) |
+| Manage | Severity calibration and gate conditions for POC, pilot, and production (`00-core-framework/severity-model.md`) |
+
+Reports state the framework version used (AI RMF 1.0) so the mapping can be checked against the published document.
+
+## Citing this framework
+A `CITATION.cff` file is included. GitHub renders it under "Cite this repository". A DOI will be added once the repository is archived on Zenodo.
 
 ## How to use this in 30 minutes
 1. Skim `00-core-framework/methodology.md` for the review model and phases (about 10 minutes).
