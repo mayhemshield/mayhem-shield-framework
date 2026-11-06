@@ -73,7 +73,7 @@ A `CITATION.cff` file is included. GitHub renders it under "Cite this repository
 You will leave with a labeled scope (category plus overlays) and vocabulary aligned with the rest of the framework. Deeper work lives under `00-core-framework/` (evidence, severity, gates) and `05-templates/` when you are ready to document architecture and flows.
 
 ## How to navigate this repository
-- `00-core-framework/` - Core methodology, evidence model, claim verification, severity model, and review structure.
+- `00-core-framework/` - Core methodology, threat model, evidence model, claim verification, severity model, and review structure.
 - `01-implementation-categories/` - Definitions and distinctions for the six primary categories.
 - `02-capability-overlays/` - Overlay definitions and control-impact context.
 - `03-guides/` - Public-safe guidance for category and overlay selection.

@@ -7,6 +7,7 @@ This folder contains public-safe starter diagrams for common assurance artifacts
 - `data-flow-template.mmd` - Trace data from source to output, including transformations and telemetry.
 - `trust-boundary-diagram-template.mmd` - Separate external and internal zones, then map boundary crossings.
 - `failure-path-template.mmd` - Capture detection, containment, recovery, and post-incident handling.
+- `threat-model-template.md` - List the threats in scope, the control areas tested against each, and the threats deliberately not tested.
 
 ## Usage notes
 - Keep labels generic for public sharing; avoid client or environment identifiers.

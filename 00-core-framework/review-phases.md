@@ -1,6 +1,6 @@
 # Review Phases
 
-1. Intake and scope definition
+1. Intake, threat model and scope definition (see `threat-model.md`)
 2. Category selection
 3. Overlay selection
 4. Architecture and control review
