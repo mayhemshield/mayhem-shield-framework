@@ -9,6 +9,16 @@ authors:
 version: 1.1.0
 date-released: "2026-11-06"
 doi: 10.5281/zenodo.22732175
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22732175
+    description: Concept DOI for all versions; resolves to the latest release.
+  - type: doi
+    value: 10.5281/zenodo.24023801
+    description: Version DOI for v1.1.0.
+  - type: doi
+    value: 10.5281/zenodo.22732176
+    description: Version DOI for v1.0.1.
 repository-code: https://github.com/mayhemshield/mayhem-shield-framework
 url: https://mayhemshield.com/framework
 license: MIT
@@ -19,9 +29,16 @@ keywords:
   - security architecture review
   - NIST AI RMF
   - enterprise AI governance
+  - threat modeling
+  - agentic AI security
+  - Model Context Protocol
+  - OWASP
 abstract: >-
   A public methodology for buyer-side security and control reviews of
   enterprise AI deployments. Classifies deployments by implementation
-  category and capability overlay, defines evidence rules, severity
+  category and capability overlay, names the threats in scope with a
+  one-page threat model at intake, defines evidence rules, severity
   calibration, and approval gates (proof of concept, pilot, production),
-  and maps review outputs to NIST AI RMF 1.0 functions.
+  and maps findings to NIST AI RMF 1.0 functions and to the OWASP Top 10
+  for LLM Applications (2026), the OWASP Top 10 for Agentic Applications,
+  and the OWASP MCP Top 10 (beta).
