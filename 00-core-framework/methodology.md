@@ -23,4 +23,4 @@ Each review is built from:
 
 ## Framework alignment
 
-The methodology references established standards including NIST AI RMF, ISO/IEC 42001, EU AI Act, OWASP Top 10 for LLM Applications, NIST CSF 2.0, and SR 11-7. See `framework-alignment.md` for where each standard appears across scoping, evidence rules, severity calibration, and gate conditions. Alignment refers to methodology reference, not certification.
+The methodology references established standards including NIST AI RMF, ISO/IEC 42001, EU AI Act, OWASP Top 10 for LLM Applications, OWASP Top 10 for Agentic Applications, OWASP MCP Top 10 (beta), NIST CSF 2.0, and SR 11-7. See `framework-alignment.md` for where each standard appears across scoping, evidence rules, severity calibration, and gate conditions. Alignment refers to methodology reference, not certification.

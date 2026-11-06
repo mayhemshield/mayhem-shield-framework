@@ -11,7 +11,9 @@ The methodology references the following standards:
 - NIST AI Risk Management Framework (AI RMF 1.0)
 - ISO/IEC 42001:2023 Artificial Intelligence Management System
 - EU AI Act (Regulation 2024/1689)
-- OWASP Top 10 for LLM Applications
+- OWASP Top 10 for LLM Applications (2026 edition)
+- OWASP Top 10 for Agentic Applications (December 2025)
+- OWASP MCP Top 10 (beta)
 - NIST Cybersecurity Framework 2.0
 - SR 11-7 Guidance on Model Risk Management
 
@@ -54,17 +56,30 @@ For deployments where the EU AI Act applies, the risk tier is documented as part
 
 ## OWASP Top 10 for LLM Applications
 
-The OWASP Top 10 for LLM Applications is referenced for any deployment that includes a large language model component. Findings related to the OWASP categories are mapped to specific LLM IDs in the findings register.
+The OWASP Top 10 for LLM Applications is referenced for any deployment that includes a large language model component. Findings are mapped to identifiers from the 2026 edition (published 4 August 2026) in the findings register.
 
 The most common gap-category-to-OWASP-LLM mappings are documented in `gap-categories.md`. Summary:
 
-- LLM01 Prompt Injection — Output Validation, Agentic Workflow Execution, Retrieval / Knowledge Security
-- LLM02 Insecure Output Handling — Output Validation, Agentic Workflow Execution, Output Liability
-- LLM05 Supply Chain Vulnerabilities — Vendor Assurance, Supply Chain and Dependency Integrity, SDLC / Change Control
-- LLM06 Sensitive Information Disclosure — Data Protection Outbound, Retrieval / Knowledge Security, Regulated Data Control, Integration / Connector Security
-- LLM08 Excessive Agency — Identity and Access, Agentic Workflow Execution, Integration / Connector Security
+- LLM01 Prompt Injection: Output Validation, Agentic Workflow Execution, Retrieval / Knowledge Security
+- LLM02 Sensitive Information Disclosure: Data Protection Outbound, Retrieval / Knowledge Security, Regulated Data Control, Integration / Connector Security
+- LLM03 Excessive Agency: Identity and Access, Agentic Workflow Execution, Integration / Connector Security
+- LLM04 Supply Chain: Vendor Assurance, Supply Chain and Dependency Integrity, SDLC / Change Control
+- LLM09 Vector and Embedding Weaknesses: Retrieval / Knowledge Security, Identity and Access
+- LLM10 Improper Output Handling: Output Validation, Agentic Workflow Execution, Output Liability
 
-LLM IDs not listed apply per engagement based on deployment specifics.
+LLM IDs not listed apply per engagement based on deployment specifics. A finding is not forced into an OWASP category when none applies directly.
+
+## OWASP Top 10 for Agentic Applications
+
+The OWASP Top 10 for Agentic Applications (ASI01 to ASI10, published December 2025) is referenced when the Agentic Workflow Execution overlay applies: the AI system plans, holds memory, calls tools, or acts with delegated authority. It is used alongside the LLM Top 10, not instead of it. The most common mappings to gap categories are in `gap-categories.md`.
+
+## OWASP MCP Top 10 (beta)
+
+The OWASP MCP Top 10 is referenced when a deployment connects agents to tools or data through the Model Context Protocol, usually under the Integration / Connector Exposure overlay. The list is in beta (Phase 3, "Beta Release and Pilot Testing", identifiers MCP01:2025 to MCP10:2025), so names and identifiers may change. Findings cite it as a draft reference and are re-checked against the final release when it is published.
+
+## Watched, not yet referenced
+
+NIST is developing SP 800-53 control overlays for AI systems (the COSAiS project), including overlays for single-agent and multi-agent systems, and launched an AI Agent Standards Initiative in February 2026. These are tracked but not cited in findings until final guidance is published.
 
 ## NIST CSF 2.0
 
@@ -105,6 +120,8 @@ These standards inform how Mayhem Shield structures its review work. Specific fr
 | NIST AI RMF | Gap structure, scoping classification, severity calibration, gate conditions | `severity-model.md` |
 | ISO/IEC 42001 | Organizational governance review, accountability evidence rules | `evidence-model.md` |
 | EU AI Act | Platform classification at intake, high-risk tier findings | `../01-implementation-categories/README.md` |
-| OWASP Top 10 for LLM | LLM-specific findings tagged with OWASP IDs | `gap-categories.md` |
+| OWASP Top 10 for LLM | LLM-specific findings tagged with 2026 OWASP IDs | `gap-categories.md` |
+| OWASP Top 10 for Agentic Applications | Agent-specific findings tagged with ASI IDs | `gap-categories.md` |
+| OWASP MCP Top 10 (beta) | MCP-specific findings, cited as a draft reference | `gap-categories.md` |
 | NIST CSF 2.0 | Cross-reference categorization layer for findings | `gap-categories.md` |
 | SR 11-7 | Regulated finance engagements involving model use | (engagement-specific) |
