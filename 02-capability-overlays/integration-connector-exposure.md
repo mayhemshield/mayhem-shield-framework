@@ -9,3 +9,5 @@ Applies when the deployment connects to enterprise systems, third-party systems,
 - token governance
 - cross-system audit trail
 - revocation/offboarding
+- MCP server inventory and provenance, including unapproved (shadow) servers
+- authentication and authorization on every MCP server endpoint

@@ -45,7 +45,7 @@ Overlays are additive modifiers applied on top of the primary category when rele
 - Output Liability / Public-Facing Use
 
 ## Framework alignment
-Mayhem Shield's methodology references established standards including NIST AI RMF 1.0, ISO/IEC 42001:2023, EU AI Act, OWASP Top 10 for LLM Applications, NIST CSF 2.0, and SR 11-7. See `00-core-framework/framework-alignment.md` for where each standard appears in the methodology. Alignment refers to methodology reference, not certification. Mayhem Shield is not a NIST-recognized assessor.
+Mayhem Shield's methodology references established standards including NIST AI RMF 1.0, ISO/IEC 42001:2023, EU AI Act, OWASP Top 10 for LLM Applications, OWASP Top 10 for Agentic Applications, OWASP MCP Top 10 (beta), NIST CSF 2.0, and SR 11-7. See `00-core-framework/framework-alignment.md` for where each standard appears in the methodology. Alignment refers to methodology reference, not certification. Mayhem Shield is not a NIST-recognized assessor.
 
 ### Mapping to NIST AI RMF 1.0
 Review outputs reference the four AI RMF 1.0 functions. Each finding in a deliverable is tagged with the function it most directly addresses.
