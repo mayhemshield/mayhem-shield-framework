@@ -8,6 +8,7 @@ A companion question precedes it: whether the product does what the vendor claim
 
 ## Review model
 Each review is built from:
+- a one-page threat model of the deployment (see `threat-model.md`)
 - the core framework
 - one primary implementation category
 - all applicable overlays

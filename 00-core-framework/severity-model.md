@@ -3,6 +3,7 @@
 Default severity is a starting point, not the final answer.
 
 Severity should be adjusted based on:
+- how easily a threat named in the threat model could exploit the weakness (see `threat-model.md`)
 - deployment scope
 - production exposure
 - data sensitivity
