@@ -6,6 +6,11 @@ authors:
   - family-names: Kadandara
     given-names: Tich
     affiliation: Mayhem Shield
+    address: 7460 Warren Pkwy, Ste 100
+    city: Frisco
+    region: TX
+    post-code: "75034"
+    country: US
 version: 1.1.0
 date-released: "2026-11-06"
 doi: 10.5281/zenodo.22732175
